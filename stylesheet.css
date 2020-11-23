@@ -1,0 +1,16 @@
+h1 {
+  font-size: 80px;
+  color: #F7F5EF;
+}
+
+.brownBackground {
+  background-color: #B68F72;
+  border-radius: 40px;
+  text-align: center;
+  margin: 40px;
+  padding: 20px;
+}
+
+a {
+  font-size: 20px;
+}
