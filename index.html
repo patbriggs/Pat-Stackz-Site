@@ -1,27 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Pat Stackz</title>
-        <link rel="stylesheet" href="./stylesheet.css">
-    </head>
-    <body>
-        <div id="banner" class="brownBackground">
-           <h1>Pat Stackz - DJ & Songwriter</h1> 
-        </div>
-        <div id="nav bar" class="brownBackground">
-            <a href="/about">About</a>
-            <span> - </span>
-            <a href='/events'>Events</a>
-            <span> - </span>
-            <a href="/media/">Media</a>
-        </div>
-        <div id="hero section">
-            <img src="./Media/Hero Image.jpg" alt="DJ Pat Stackz DJing at AfroTech 2020" style="width: 100%;"/>
-            <button onClick="alert('Booking Confimation');">Book Now</button>
-        </div>
-        <div id="blurb">
-            <h2>Freshest sound out of LA!</h2>
-         </div>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Pat Stackz</title>
+    <link rel="stylesheet" href="./stylesheet.css" />
+  </head>
+  <body>
+    <header id="banner" class="brownBackground">
+      <h1>Pat Stackz - DJ & Songwriter</h1>
+    </header>
+    <nav id="nav bar" class="brownBackground">
+      <a href="/about">About</a>
+      <span> - </span>
+      <a href="/events">Events</a>
+      <span> - </span>
+      <a href="/media/">Media</a>
+    </nav>
+    <section id="hero section">
+      <img
+        src="./Media/Hero Image.jpg"
+        alt="DJ Pat Stackz DJing at AfroTech 2020"
+        style="width: 100%"
+      />
+      <button onClick="alert('Booking Confimation');">Book Now</button>
+    </section>
+    <div id="blurb">
+      <h2>Freshest sound out of LA!</h2>
+    </div>
+    <div>
+      <video width="320" height="240" controls>
+        <source src="Media/AfroTech Day 1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <iframe
+        src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fdjpatstackz%2Fvideos%2F2394096800866619%2F&show_text=0&width=560"
+        width="560"
+        height="315"
+        style="border: none; overflow: hidden"
+        scrolling="no"
+        frameborder="0"
+        allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        allowfullscreen="true"
+      ></iframe>
+    </div>
+    <footer>
+      <a href="https://www.instagram.com/self_made_pat/"
+        ><img src="Media/Social Icons/instagram.svg" alt="Pat Stackz Instagram"
+      /></a>
+    </footer>
+  </body>
 </html>
